@@ -36,7 +36,7 @@ class Collection implements IteratorAggregate, ArrayAccess, Countable
         if ($node instanceof AbstractNode) {
             return \call_user_func_array([$node, $method], $arguments);
         }
-        throw new EmptyCollectionException('The collection does not contain any Nodes.');
+        // throw new EmptyCollectionException('The collection does not contain any Nodes.');
     }
 
     /**

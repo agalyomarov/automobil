@@ -1,0 +1,2 @@
+[Wed Sep 21 12:41:18.835150 2022] [php:error] [pid 1107] [client 127.0.0.1:51946] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[Wed Sep 21 13:05:29.161287 2022] [php:error] [pid 1106] [client 127.0.0.1:58035] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /Users/agaly/Desktop/www/test.ru/index.php on line 96

@@ -6,14 +6,16 @@ ini_set('log_errors', 'On');
 ini_set('error_log', 'php_errors.log');
 ini_set("max_execution_time", "900");
 ini_set('allow_url_fopen', 1);
-ini_set('memory_limit', '1000M');
+ini_set('memory_limit', '2000M');
 require "vendor/autoload.php";
 require_once('db.php');
 
 use PHPHtmlParser\Dom;
 
-
+// exit;
 $links = json_decode(file_get_contents('test.json'));
+$dom = new Dom;
+$blocks = new Dom;
 foreach ($links as $key => $link) {
    $path = explode("/", $link);
    if (!is_dir('images/' . $path[1]) || !file_exists('images/' . $path[1])) {
@@ -24,15 +26,13 @@ foreach ($links as $key => $link) {
    }
 
    $content = file_get_contents("https://xn----8sbeclb6ai7aqz.xn--p1ai/" . $link);
-   $dom = new Dom;
-   $blocks = new Dom;
+
    $dom->loadStr($content);
    $price_block = $dom->find('#app main.page-main section.page-main__car .car__buy-options .car__buy-wrap div div');
    $h1 = explode(' ', $dom->find('.heading.heading--h1')->text);
    $cart = $dom->find('#app main.page-main section.page-main__car .car__detail-block-wrap div div div');
-   $sliders = $dom->find('#app main.page-main section .car__block div div div');
+   $sliders = $dom->find('#app main.page-main section .car__block div div div.slider-car.slider-car--card');
 
-   unset($dom);
 
    $marka = $h1[0];
    $model = $h1[1];
@@ -75,24 +75,29 @@ foreach ($links as $key => $link) {
    // }
    // print_r($mobil_id);
    // exit();
+
    $model = mb_strtolower($model);
    $marka = mb_strtolower($marka);
-   foreach ($sliders as $key => $slider) {
-      if ($slider->find('a') !== NULL && filter_var($slider->find('a')->getAttribute('href'), FILTER_VALIDATE_URL) !== FALSE) {
-         if (!is_dir('images/' . $marka) || !file_exists('images/' . $marka)) {
-            mkdir("images/" . $marka, 0777);
-         }
-         if (!is_dir('images/' . $marka . '/' . $model) || !file_exists('images/' . $marka . '/' . $model)) {
-            mkdir("images/" . $marka . '/' . $model, 0777);
-         }
+   // echo html_entity_decode($sliders);
+   // exit;
+   foreach ($sliders->find('div.slider-car__item') as $key_slider => $slider) {
+      if (!is_dir('images/' . $marka) || !file_exists('images/' . $marka)) {
+         mkdir("images/" . $marka, 0777);
+      }
+      if (!is_dir('images/' . $marka . '/' . $model) || !file_exists('images/' . $marka . '/' . $model)) {
+         mkdir("images/" . $marka . '/' . $model, 0777);
+      }
 
-         if (!is_dir('images/' . $marka . '/' . $model . '/' . $mobil_id) || !file_exists('images/' . $marka . '/' . $model . '/' . $mobil_id)) {
-            mkdir("images/" . $marka . '/' . $model . '/' . $mobil_id, 0777);
-         }
-         $image_path = 'images/' . $marka . '/' . $model . '/' . $mobil_id . '/' . rand(1111111111, 9999999999) . md5(microtime()) . '.jpg';
-         file_put_contents($image_path, file_get_contents($slider->find('a')->getAttribute('href')));
-         $image = 'image_' . $key;
+      if (!is_dir('images/' . $marka . '/' . $model . '/' . $mobil_id) || !file_exists('images/' . $marka . '/' . $model . '/' . $mobil_id)) {
+         mkdir("images/" . $marka . '/' . $model . '/' . $mobil_id, 0777);
+      }
+
+      $image_path = 'images/' . $marka . '/' . $model . '/' . $mobil_id . '/' . rand(1111111111, 9999999999) . md5(microtime()) . '.jpg';
+      if ($href = $slider->find('a.slider-car__link')->getAttribute('href')) {
+         file_put_contents($image_path, file_get_contents($href));
+         $image = 'image_' . $key_slider;
          $con->query("UPDATE `mobils` SET `$image` = '$image_path'");
+         echo $slider . "<br>";
       }
    }
    exit;

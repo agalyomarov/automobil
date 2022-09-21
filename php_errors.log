@@ -196,3 +196,139 @@ Stack trace:
 #0 /Users/agaly/Desktop/www/test.ru/index.php(81): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
 #1 {main}
   thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:14:11 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(82): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:14:12 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(82): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:16:01 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(82): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:18:33 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(82): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:21:30 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(83): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:24:21 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(83): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:27:31 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(83): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:28:51 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(83): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:30:05 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:35:32 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:37:21 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:23 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:27 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:30 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:32 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:33 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:35 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:37 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:39 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:41 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:42 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:44 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:45 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:47 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:49 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:51 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:52 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:54 UTC] PHP Warning:  Undefined variable $sliter in /Users/agaly/Desktop/www/test.ru/index.php on line 96
+[21-Sep-2022 09:37:54 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:40:06 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 09:42:09 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 10:01:48 UTC] PHP Fatal error:  Uncaught PHPHtmlParser\Exceptions\EmptyCollectionException: The collection does not contain any Nodes. in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:39
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): PHPHtmlParser\Dom\Node\Collection->__call('getAttribute', Array)
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 39
+[21-Sep-2022 10:04:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/agaly/Desktop/www/test.ru/index.php:97
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(97): file_get_contents('')
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(tel:+78122007757): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(tel:+78122007757): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(tel:+78122007757): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(tel:+78122007757): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(credit/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:08:33 UTC] PHP Warning:  file_get_contents(trade-in/?mark=1&amp;folder=2&amp;car_id=3989): Failed to open stream: No such file or directory in /Users/agaly/Desktop/www/test.ru/index.php on line 97
+[21-Sep-2022 10:13:36 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/agaly/Desktop/www/test.ru/index.php:96
+Stack trace:
+#0 /Users/agaly/Desktop/www/test.ru/index.php(96): file_get_contents('')
+#1 {main}
+  thrown in /Users/agaly/Desktop/www/test.ru/index.php on line 96
