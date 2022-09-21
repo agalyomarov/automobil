@@ -97,19 +97,3 @@ foreach ($links as $key => $link) {
    }
    exit;
 }
-
-
-
-
-// echo $content;
-// $dom = new Dom;
-// $dom->loadStr($content);
-// $catalogs_lists = $dom->find('#catalog_category .subsection')[0];
-
-
-// $categories = json_decode(file_get_contents("php://input"), true);
-// foreach ($categories as $category) {
-//    // $con->query("INSERT INTO  `categories`(`id`,`title`) VALUES(NULL,'$category')");
-// }
-// echo json_encode($categories);
-// print_r($_POST['test']);

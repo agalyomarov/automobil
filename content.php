@@ -16,3 +16,8 @@ echo file_get_contents("https://xn----8sbeclb6ai7aqz.xn--p1ai/in-stock/audi/a6/1
       })
    console.log(body);
 </script> -->
+
+<!-- setInterval(function(){window.scrollBy(0,1000)},500); -->
+<!-- let articles=document.querySelectorAll('article'); -->
+<!-- let links=[]; -->
+<!-- articles.forEach(function(article,key){links[key]=article.querySelector('a').getAttribute('href')}) -->
