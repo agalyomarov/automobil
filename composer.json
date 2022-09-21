@@ -1,0 +1,17 @@
+{
+  "name": "agaly/test.ru",
+  "autoload": {
+    "psr-4": {
+      "Agaly\\TestRu\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Agaly Omarov",
+      "email": "omaraly971215@gmail.com"
+    }
+  ],
+  "require": {
+    "paquettg/php-html-parser": "^3.1"
+  }
+}
